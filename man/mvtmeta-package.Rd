@@ -1,5 +1,4 @@
 \name{mvtmeta-package}
-\Rdversion{1.1}
 \alias{mvtmeta-package}
 \alias{mvtmeta}
 \docType{package}
@@ -13,10 +12,9 @@ This package contains functions to run fixed effects or random effects multivari
 \tabular{ll}{
 Package: \tab mvtmeta\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2012-07-09\cr
-License: \tab GPL (>= 2)\cr
-LazyLoad: \tab yes\cr
+Version: \tab 1.1\cr
+Date: \tab 2020-02-11\cr
+License: \tab GPL-3\cr
 }
 Use the function mvrmeta_fe to run the fixed effects multivariate meta-analysis. Use the function mvrmeta_re to run the random effects multivariate meta-analysis.
 }
@@ -26,7 +24,7 @@ Han Chen
 Maintainer: Han Chen <hanchen@bu.edu>
 }
 \references{
-Chen H, Manning AK, Dupuis J. A method of moments estimator for random effect multivariate meta-analysis. Biometrics (Epub May 2, 2012)
+Chen, H., Manning, A.K. and Dupuis J. (2012) A method of moments estimator for random effect multivariate meta-analysis. Biometrics 68, 1278-1284.
 }
 \keyword{multivariate}
 \keyword{methods}

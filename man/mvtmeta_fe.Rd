@@ -1,5 +1,4 @@
 \name{mvtmeta_fe}
-\Rdversion{1.1}
 \alias{mvtmeta_fe}
 \title{
 Fixed effects multivariate meta-analysis.
@@ -27,7 +26,7 @@ Please note that fixed effects meta-analysis may provide invalid results when he
   \item{cov}{The covariance matrix for the summary effect estimates.}
 }
 \references{
-Chen H, Manning AK, Dupuis J. A method of moments estimator for random effect multivariate meta-analysis. Biometrics (Epub May 2, 2012)
+Chen, H., Manning, A.K. and Dupuis J. (2012) A method of moments estimator for random effect multivariate meta-analysis. Biometrics 68, 1278-1284.
 }
 \author{
 Han Chen

@@ -1,8 +1,8 @@
 mvtmeta_fe <-
 function(y, cov) {
-if(class(y) != "matrix") 
+if(length(dim(y)) != 2) 
 stop("Error: input effect sizes must be put in a p by n matrix where p is the number of effects and n is the number of studies")
-if(class(cov) != "array" || dim(cov)[1] != dim(cov)[2]) 
+if(length(dim(cov)) != 3 || dim(cov)[1] != dim(cov)[2]) 
 stop("Error: input covariance matrices must be put in a p by p by n array where p is the number of effects and n is the number of studies")
 if(dim(y)[1] != dim(cov)[1]) 
 stop("Error: the number of effects p is different in the effect size matrix and the covariance array")

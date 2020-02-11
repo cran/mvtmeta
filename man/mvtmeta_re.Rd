@@ -1,5 +1,4 @@
 \name{mvtmeta_re}
-\Rdversion{1.1}
 \alias{mvtmeta_re}
 \title{
 Random effects multivariate meta-analysis.
@@ -30,7 +29,7 @@ This function then computes the summary effect estimates and their covariance ma
   \item{negeigen}{Number of negative eigenvalues of the original between-study covariance matrix estimate.}
 }
 \references{
-Chen H, Manning AK, Dupuis J. A method of moments estimator for random effect multivariate meta-analysis. Biometrics (Epub May 2, 2012)
+Chen, H., Manning, A.K. and Dupuis J. (2012) A method of moments estimator for random effect multivariate meta-analysis. Biometrics 68, 1278-1284.
 }
 \author{
 Han Chen

@@ -1,1 +1,2 @@
+importFrom("gtools", "combinations")
 export(mvtmeta_fe, mvtmeta_re)
